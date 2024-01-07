@@ -1,5 +1,20 @@
 <div class="container__menu-title">
-  <hr/>
-  <h1>MARVEL BLOG</h1>
-  <hr/>
+  <div class="menu-title__title">
+    <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
+  </div>
+
+  <div class="menu-title__description">
+    <p>
+      <a [routerLink]="['content', Id]">
+          {{ cardDescription }}
+      </a>
+    </p>
+  </div>
+
+  <ul class="menu-title__buttons">
+    <li><a href="#">Read article</a></li>
+    <li><a href="#">21 comments</a></li>
+    <li><a href="#">READ LATER</a></li>
+    <li><p>By Anonymous</p></li>
+  </ul>
 </div>

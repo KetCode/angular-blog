@@ -1,17 +1,25 @@
 .container__menu-title{
-  color: white;
+  margin: 0 10rem 60px 12%;
 }
 
-.container__menu-title > h1{
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-size: 135px;
-  font-family: 'segoe UI';
+.menu-title__description {
+  margin: 15px 200px 15px 0;
+}
+
+.menu-title__buttons {
+  margin-top: 35px;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
 }
 
-.container__menu-title > hr{
-  margin-top: 20px;
-  margin-bottom: 5px;
+.menu-title__buttons > li{
+  margin-right: 30px;
+  list-style: none;
 }
+
+.menu-title__buttons > li:last-child{
+  margin-left: 35%;
+  /* list-style: none; */
+}
+
+

@@ -1,5 +1,6 @@
 header {
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  height: 60vh;
+  background-image: url('https://www.meupositivo.com.br/doseujeito/wp-content/uploads/2023/10/15-truques-para-utilizar-o-ChatGPT-de-maneira-mais-eficiente.jpg');
+  background-size: cover;
 }

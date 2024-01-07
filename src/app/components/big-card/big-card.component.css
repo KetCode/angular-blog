@@ -1,15 +1,9 @@
 .container__big-card{
 
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 40px;
 
   width: 400px;
-  height: 500px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  height: 400px;
 }
 
 .big-card__title > h1  {
@@ -27,5 +21,5 @@
 
 .big-card__photo > img{
   width: 100%;
-  min-width: 400px;
+  min-width: 150px;
 }

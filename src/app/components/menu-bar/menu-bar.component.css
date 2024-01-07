@@ -1,4 +1,16 @@
+#logo{
+  font-weight: 800;
+  font-size: 1.2rem;
+}
 
+.container__menu-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 8rem;
+  padding: 1rem;
+}
 
 .container__menu-bar > ul{
   display: flex;
@@ -8,5 +20,17 @@
 .container__menu-bar > ul > li{
   margin-right: 20px;
   list-style: none;
+}
+
+.container__menu-bar > ul:last-child li:hover{
+  background: rgba(0,0,0,0.3);
+  border-radius: 6px;
+  padding: 4px 3px 1px ;
+}
+
+.container__menu-bar > ul > li:hover{
+  background: rgba(0,0,0,0.3);
+  border-radius: 6px;
+  padding: 3px 15px;
 }
 
