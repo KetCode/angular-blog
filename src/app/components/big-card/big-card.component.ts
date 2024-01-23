@@ -8,11 +8,17 @@ import { Component, Input, OnInit } from '@angular/core';
 export class BigCardComponent implements OnInit {
 
   @Input()
-  photoCover:string =""
+  photoCover:string = ""
   @Input()
   cardTitle:string= ""
   @Input()
-  cardDescription:string =""
+  cardAuthor:string = "Anonymous"
+  @Input()
+  commentIcon:string = "../../../assets/comment.svg"
+  @Input()
+  markIcon:string = "../../../assets/markbook.svg"
+  @Input()
+  cardDescription:string = ""
   @Input()
   Id:string="0"
 
