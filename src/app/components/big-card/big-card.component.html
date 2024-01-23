@@ -11,6 +11,14 @@
 
   <div class="big-card__title">
     <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
+    <div class="big-card__author">
+      <p>By <span>{{ cardAuthor }}</span> <a href="">+ 3 authors</a></p>
+      <div class="big-card__author-buttons">
+        <a class="big-card__comments" href=""><img src="{{ commentIcon }}" alt="comments">21</a>
+        <p> | </p>
+        <a class="big-card__mark" href=""><img src="{{ markIcon }}" alt="mark"></a>
+      </div>
+    </div>
   </div>
 
   <div class="big-card__description">
