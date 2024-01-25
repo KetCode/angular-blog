@@ -1,5 +1,5 @@
 .container__menu-title{
-  margin: 0 10rem 60px 12%;
+  padding-bottom: 60px;
 }
 
 .menu-title__description {
@@ -10,16 +10,34 @@
   margin-top: 35px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
-.menu-title__buttons > li{
+.menu-title__buttons ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu-title__buttons ul > li{
   margin-right: 30px;
   list-style: none;
 }
 
-.menu-title__buttons > li:last-child{
-  margin-left: 35%;
-  /* list-style: none; */
+.menu-title__buttons ul > li:first-child a{
+  font-weight: bold;
+  color: orange;
+  font-size: larger;
+}
+
+.menu-title__buttons ul > li:last-child a{
+  display: flex;
+  gap: 8px;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: monospace;
+  align-items: center;
+  margin-bottom: -3px;
 }
 
 
