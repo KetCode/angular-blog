@@ -13,6 +13,8 @@ export class MenuTitleComponent implements OnInit {
   @Input()
   cardTitle:string= ""
   @Input()
+  cardAuthor:string= "Anonymous"
+  @Input()
   cardDescription:string =""
   @Input()
   Id:string="0"
