@@ -7,11 +7,22 @@
   background-color: #181818;
 }
 
+.articles__main{
+  border-right: 1px solid #404040;
+  margin: 0 55px 20px 0;
+  padding: 0 60px;
+  max-width: 1200px;
+}
+
 
 .container__posts{
-  display: flex;
-  flex-direction: row;
+  display: inline-grid;
+  grid-template-columns: auto auto;
 
-  margin-left: 12%
+  gap: 20px 45px;
+}
+
+.articles__others h2{
+  padding-bottom: 20px;
 }
 
