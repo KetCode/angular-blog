@@ -1,15 +1,35 @@
 <div class="container__content">
+
   <div class="content__cover">
     <img src="{{ photoCover }}" alt="" srcset="">
   </div>
-  <div class="content__title">
-    <h1>{{ contentTitle }}</h1>
-    <hr />
-  </div>
-  <div class="content__description">
-    <a [routerLink]="['']"> << VOLTAR </a>
-    <p>
-      {{ contentDescription }}
-    </p>
+
+  <div class="container__cards-content">
+    <div class="articles__others">
+      <h2>Recomendado para você</h2>
+
+      <app-small-card Id="1" cardTitle="The Evolution of the Technological World: A Double-Edged Sword" cardAuthor="DiscoverTec"
+        photoCover="https://img.freepik.com/fotos-premium/conceito-de-tecnologia-de-globalizacao-com-robo-de-renderizacao-3d-com-conexao-global_493806-2305.jpg?size=626&ext=jpg">
+      </app-small-card>
+
+      <app-small-card Id="2" cardTitle="Big Data e Análise"
+        photoCover="https://img.freepik.com/fotos-premium/tecnologia-de-hospedagem-de-ilustracao-de-computacao-em-nuvem-3d-com-dispositivos-eletronicos_843415-6153.jpg">
+      </app-small-card>
+
+      <app-small-card Id="3" cardTitle="Realidade Virtual e Aumentada" cardAuthor="Veronica Sherer"
+        photoCover="https://geekflare.com/wp-content/uploads/2022/08/Augmented-Reality-AR-vs.-Virtual-Reality-VR-The-Differences.jpg">
+      </app-small-card>
+    </div>
+
+    <div class="content__news-text">
+      <div class="content__title">
+        <h1>{{ contentTitle }}</h1>
+      </div>
+      <div class="content__description">
+        <p>
+          {{ contentDescription }}
+        </p>
+      </div>
+    </div>
   </div>
 </div>
