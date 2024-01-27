@@ -10,6 +10,7 @@ import {dataFake} from '../../data/dataFake'
 export class ContentComponent implements OnInit {
   photoCover:string = ""
   contentTitle:string = ""
+  contentAuthor:string = ""
   contentDescription:string = ""
   private id:string | null = "0"
 
@@ -29,6 +30,7 @@ export class ContentComponent implements OnInit {
     const result = dataFake.filter(article => article.id == id)[0]
 
     this.contentTitle = result.title
+    this.contentAuthor = result.author
     this.contentDescription = result.description
     this.photoCover = result.photoCover
   }
